@@ -1,0 +1,26 @@
+/* 1280px+ */
+.place__website {
+    max-width: 456px;
+    max-height: 46px;
+    align-self: end;
+}
+
+/* 1024px-1279px */
+@media screen and (max-width: 1279px) {
+}
+   
+/* 768px-1023px */
+@media screen and (max-width: 1023px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+   
+/* 320px-767px */
+@media screen and (max-width: 767px) {
+    .place__website {
+        max-width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

@@ -1,0 +1,30 @@
+/* 1280px+ */
+.cover__overlay {
+    background-image: linear-gradient(#2A2C2F, rgba( 0, 0, 0, 0.3));
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    width: 100%;
+}
+
+.cover__overlay:hover {
+    background-image: linear-gradient(#2A2C2F, rgba( 0, 0, 0, 0.8));
+}
+
+ /* 1024px-1279px */
+ @media screen and (max-width: 1279px) {
+}
+  
+/* 768px-1023px */
+@media screen and (max-width: 1023px) {
+}
+  
+/* 320px-767px */
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        row-gap: 16px;
+        position: absolute;
+        top: 0;
+    }
+}

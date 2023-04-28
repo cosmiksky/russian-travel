@@ -1,0 +1,45 @@
+/* 1280px+ */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 16px;
+    row-gap: 16px;
+    padding-bottom: 92px;
+    justify-content: center;
+ }
+ 
+ /* 1024px-1279px */
+ @media screen and (max-width: 1279px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
+        column-gap: 14px;
+        row-gap: 14px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+ }
+   
+ /* 768px-1023px */
+ @media screen and (max-width: 1023px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, auto);
+        column-gap: 16px;
+        row-gap: 16px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+ }
+   
+ /* 320px-767px */
+ @media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(12, auto);
+        row-gap: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+ }

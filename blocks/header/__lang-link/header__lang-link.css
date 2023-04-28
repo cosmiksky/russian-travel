@@ -1,0 +1,28 @@
+/* 1280px+ */
+.header__lang-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* 1024px-1279px */
+@media screen and (max-width: 1279px) {
+}
+  
+/* 768px-1023px */
+@media screen and (max-width: 1023px) {
+    .header__lang-link {
+      max-width: 176px;
+    }
+}
+  
+/* 320px-767px */
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

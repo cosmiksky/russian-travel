@@ -1,0 +1,44 @@
+/* 1280px+ */
+.lead__subtitle {
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    max-width: 640px;
+    max-height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+ }
+ 
+ /* 1024px-1279px */
+ @media screen and (max-width: 1279px) {
+    .lead__subtitle {
+        max-width: 640px;
+        max-height: 72px;
+        padding-bottom: 56px;
+        padding-left: 192px;
+        padding-right: 192px;
+    }
+ }
+   
+ /* 768px-1023px */
+ @media screen and (max-width: 1023px) {
+    .lead__subtitle {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+ }
+   
+ /* 320px-767px */
+ @media screen and (max-width: 767px) {
+    .lead__subtitle {
+        max-width: 288px;
+        max-height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 16px 16px 40px 16px;
+    }
+ }
