@@ -32,5 +32,6 @@
         background-size: 320px 200px;
         max-width: 320px;
         max-height: 200px;
+        padding-bottom: 64px;
     }
 }
