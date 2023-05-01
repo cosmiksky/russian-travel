@@ -10,7 +10,6 @@
 /* 1024px-1279px */
 @media screen and (max-width: 1279px) {
     .lead {
-        max-height: 962px;
         padding-left: 48px;
         padding-right: 48px;
     }
