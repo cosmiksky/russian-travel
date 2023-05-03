@@ -1,7 +1,6 @@
 /* 1280px+ */
 .cover {
     max-width: 1184px;
-    max-height: 740px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -13,7 +12,6 @@
  @media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
-        max-height: 640px;
     }
 }
   
@@ -21,7 +19,6 @@
 @media screen and (max-width: 1023px) {
     .cover {
         max-width: 768px;
-        max-height: 480px;
     }
 }
   
@@ -29,7 +26,6 @@
 @media screen and (max-width: 767px) {
     .cover {
         max-width: 320px;
-        max-height: 200px;
         padding-bottom: 64px;
     }
 }

@@ -1,20 +1,11 @@
 /* 1280px+ */
 .cover__overlay {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
+    background: rgba( 42, 44, 47, 0.3);
     width: 100%;
-    background-image: url(../../../images/cover-trains.jpg);
-    background-size: 1184px 740px;
-    background-repeat: no-repeat;
-    position: relative;
+    height: 100%;
+
 }
 
-/* 320px-767px */
-@media screen and (max-width: 767px) {
-    .cover__overlay {
-        row-gap: 16px;
-        background-size: 320px 200px;
-    }
+.cover__overlay:hover { 
+    background: rgba( 42, 44, 47, 0.8); 
 }

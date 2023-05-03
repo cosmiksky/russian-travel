@@ -8,10 +8,17 @@
     margin: 0;
  }
  
- /* 1024px-1279px */
- @media screen and (max-width: 1279px) {
+/* 1024px-1279px */
+@media screen and (max-width: 1279px) {
     .intro__title {
         max-width: fit-content;
-        max-height: fit-content;
     }
- }
+}
+
+/* 320px-767px */
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
