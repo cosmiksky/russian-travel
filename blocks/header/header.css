@@ -6,6 +6,7 @@
     justify-content: space-between;
     max-width: 1184px;
     margin: 0 auto;
+    column-gap: 931px;
 }
   
 /* 1024px-1279px */
@@ -15,6 +16,7 @@
       padding-right: 48px;
       max-width: 928px;
       padding-bottom: 48px;
+      column-gap: 675px;
     }
 }
   
@@ -24,6 +26,7 @@
       padding-left: 24px;
       padding-right: 24px;
       max-width: 720px;
+      column-gap: 467px;
     }
 }
   
@@ -34,5 +37,6 @@
       padding-right: 16px;
       padding-top: 16px;
       max-width: 288px;
+      column-gap: 84px;
     }
 }

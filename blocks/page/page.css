@@ -11,6 +11,9 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
  
  /* 1024px-1279px */

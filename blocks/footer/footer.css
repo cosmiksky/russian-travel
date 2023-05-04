@@ -7,6 +7,7 @@
     padding-top: 92px;
     margin-left: auto;
     margin-right: auto;
+    column-gap: 533px;
 }
 
  /* 1024px-1279px */
@@ -15,6 +16,7 @@
         padding-left: 48px;
         padding-right: 48px;
         max-width: 928px;
+        column-gap: 277px;
     }
 }
 
@@ -24,6 +26,7 @@
         max-width: 720px;
         padding-left: 24px;
         padding-right: 24px;
+        column-gap: 69px;
     }
 }
   
