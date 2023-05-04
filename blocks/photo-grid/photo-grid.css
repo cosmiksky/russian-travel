@@ -30,6 +30,7 @@
         row-gap: 16px;
         padding-right: 24px;
         padding-left: 24px;
+        padding-bottom: 88px;
     }
  }
    
@@ -41,5 +42,6 @@
         row-gap: 12px;
         padding-left: 16px;
         padding-right: 16px;
+        padding-bottom: 64px;
     }
  }
