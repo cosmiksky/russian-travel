@@ -27,7 +27,7 @@
     background-size: 1184px 740px;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 /* 1024px-1279px */
