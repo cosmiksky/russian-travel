@@ -14,7 +14,7 @@
     .place {
         padding-left: 0;
         padding-right: 0;
-        column-gap: 38px;
+        column-gap: 32px;
         grid-template-columns: 440px 456px;
     }
  }
